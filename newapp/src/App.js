@@ -23,7 +23,7 @@ affichage = ()=>{
       <button onClick={this.affichage}>Show Profil</button>
       {this.state.shows && ( 
       <div>
-        <h1>{this.state.person.fullName}</h1>
+        <h2>{this.state.person.fullName}</h2>
         <h1>{this.state.person.bio}</h1>
         <img src={this.state.person.imgSrc} alt="img"/>
         <h1>{this.state.person.profession}</h1>
